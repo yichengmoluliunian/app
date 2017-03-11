@@ -1,0 +1,47 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+  <%= csrf_meta_tags %>
+  <title>王丹黎</title>
+</head>  
+<body>  
+
+<!--              <li><a href="#">Link</a></li>
+              <li><a href="#">Link</a></li>  
+              <li><a href="#">Link</a></li>  
+
+              <li><a href="#">Link</a></li>  
+              <li><a href="#">Link</a></li>  
+              <li><a href="#">Link</a></li>  
+              <li><a href="#">Link</a></li>  
+              <li><a href="#">Link</a></li>  
+              <li><a href="#">Link</a></li>  
+
+              <li><a href="#">Link</a></li>  
+              <li><a href="#">Link</a></li>  
+              <li><a href="#">Link</a></li>
+              -->
+
+      <style type="text/css">
+      posts {padding-left : 100px;color:#999}
+      </style>
+      <posts><%= yield %></posts>
+      <hr>  
+
+      <style type="text/css">
+      footer {padding-left : 50px;color:#ddd;font-weight:300}
+      </style>
+      <footer>  
+        <p>© By lissdy 2013</p>  
+      </footer>  
+  
+    </div><!--/.fluid-container-->  
+  
+    <!-- Le javascript  
+    ================================================== -->  
+    <!-- Placed at the end of the document so the pages load faster -->  
+    <script src="//cdnjs.bootcss.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
